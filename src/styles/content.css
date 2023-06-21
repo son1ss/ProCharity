@@ -420,3 +420,9 @@
 
 /* CropperJS */
 @import url(../vendor/cropperjs.css);
+
+/* Criteria */
+@import url(../blocks/criteria/criteria.css);
+@import url(../blocks/criteria/__title/criteria__title.css);
+@import url(../blocks/criteria/__group/criteria__group.css);
+@import url(../blocks/criteria/__expl/criteria__expl.css);
