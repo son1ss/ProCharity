@@ -5,3 +5,9 @@
     height: 56px;
     color: #374045;
 }
+
+@media screen and (max-width: 900px) {
+    .btn_type_cancel {
+        width: 312px;
+    }
+}

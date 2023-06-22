@@ -4,3 +4,9 @@
     height: 56px;
     color: #fff;
 }
+
+@media screen and (max-width: 900px) {
+    .btn_type_adding {
+        width: 312px;
+    }
+}

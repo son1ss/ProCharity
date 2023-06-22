@@ -4,3 +4,10 @@
     height: 56px;
     color: #fff;
 }
+
+@media screen and (max-width: 900px) {
+    .btn_type_rates {
+        width: 312px;
+        margin-bottom: 14px;
+    }
+}
