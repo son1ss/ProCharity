@@ -1,0 +1,16 @@
+.rates {
+    width: 736px;
+    border-bottom: 1px solid #E3E9F0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    column-gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 796px) {
+    .rates {
+        width: 312px;
+    }
+}

@@ -1,0 +1,12 @@
+.btns {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 32px 0 0 0;
+}
+
+@media screen and (max-width: 796px) {
+    .btns {
+        width: 312px;
+    }
+}

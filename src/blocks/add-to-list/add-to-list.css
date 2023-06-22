@@ -1,0 +1,7 @@
+.add-to-list {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 0;
+    padding: 32px 0 0 0;
+}

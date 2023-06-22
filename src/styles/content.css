@@ -122,7 +122,7 @@
 @import url(../blocks/heading/_type/heading_type_registrtion.css);
 @import url(../blocks/heading/_type/heading_type_title-desktop.css);
 @import url(../blocks/heading/_type/heading_type_title-mobile.css);
-
+@import url(../blocks/heading/_type/heading_type_rates.css);
 
 
 /* Кнопки */
@@ -138,6 +138,9 @@
 @import url(../blocks/btn/_type/btn_type_refresh.css);
 @import url(../blocks/btn/_type/btn_type_delete.css);
 @import url(../blocks/btn/_type/btn_type_add.css);
+@import url(../blocks/btn/_type/btn_type_rates.css);
+@import url(../blocks/btn/_type/btn_type_cancel.css);
+@import url(../blocks/btn/_type/btn_type_adding.css);
 
 @import url(../blocks/btn/_position/btn_position_right.css);
 
@@ -421,8 +424,29 @@
 /* CropperJS */
 @import url(../vendor/cropperjs.css);
 
+/* Rates */
+
+@import url(../blocks/rates/rates.css);
+@import url(../blocks/rates/__paragraph/rates__paragraph.css);
+
 /* Criteria */
 @import url(../blocks/criteria/criteria.css);
+@import url(../blocks/criteria/__row/criteria__row.css);
 @import url(../blocks/criteria/__title/criteria__title.css);
 @import url(../blocks/criteria/__group/criteria__group.css);
 @import url(../blocks/criteria/__expl/criteria__expl.css);
+
+
+/* btns */
+@import url(../blocks/btns/btns.css);
+
+/* add-to-list */
+
+@import url(../blocks/add-to-list/add-to-list.css);
+@import url(../blocks/add-to-list/__paragraph/add-to-list_paragraph.css);
+
+
+/* public-recult */
+@import url(../blocks/public-result/public-result.css);
+@import url(../blocks/public-result/__icon-warning/public-result__icon-warning.css);
+@import url(../blocks/public-result/__paragraph/public-result__paragraph.css);
