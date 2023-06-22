@@ -47,7 +47,74 @@
 </header>
 <main class="main main_template_lk">
 
+  <nav class="breadcrumbs">
+    <ul class="breadcrumbs__list">
+      <li class="breadcrumbs__item">
+        <a href="#" class="breadcrumbs__link">Личный кабинет</a>
+      </li>
+      <li class="breadcrumbs__item">
+        <a href="#" class="breadcrumbs__link">Мои задания</a>
+      </li>
+      <li class="breadcrumbs__item">
+        <a href="#" class="breadcrumbs__link">Перевод анкет на немецкий</a>
+      </li>
+      <li class="breadcrumbs__item">
+        Оценка работы с фондом
+      </li>
+    </ul>
+  </nav>
+
+  <section class="sidebar-nav">
+    <ul class="sidebar-nav__list">
+      <li class="sidebar-nav__item sidebar-nav__item_type_current">
+          <div class="sidebar-nav__step sidebar-nav__step_style_lk sidebar-nav__step_type_current">
+            <span class="sidebar-nav__step-text">1</span>
+          </div>
+          <span class="sidebar-nav__item-text">Трудозатраты</span>
+      </li>
+      <li class="sidebar-nav__item">
+        <a href="#" class="sidebar-nav__link">
+          <div class="sidebar-nav__step sidebar-nav__step_style_lk">
+            <span class="sidebar-nav__step-text">2</span>
+          </div>
+          <span class="sidebar-nav__item-text">Оценка</span>
+        </a>
+      </li>
+      <li class="sidebar-nav__item">
+        <a href="#" class="sidebar-nav__link">
+          <div class="sidebar-nav__step sidebar-nav__step_style_lk">
+            <span class="sidebar-nav__step-text">3</span>
+          </div>
+          <span class="sidebar-nav__item-text">Отзывы</span>
+        </a>
+      </li>
+    </ul>
+    <div class="sidebar-nav__description">
+      <p class="sidebar-nav__description-title">Оценка работы волонтера</p>
+    </div>
+  </section>
+
+  <section class="content">
+    <h1 class=" heading heading_type_title">Трудозатраты</h1>
+    <form name="hoursForm" id="hoursForm" action="lk-rate-fund.html" method="get">
+      <fieldset class="fieldset">
+        <p class="paragraph">Приблизительное время в часах, которое ты потратил на выполнение задания. Это твоя личная статистика, фонд ее не увидит.</p>
+        <div class="input">
+          <input type="text" class="input__field input__field_type_hours" name="textfield1" id="textfield1" placeholder="Время выполнения задания, ч." required="">
+          <label for="textfield1" class="input__label">Время выполнения задания, ч.</label>
+          <button class="btn input__btn input__btn_type_clear-text input__btn_type_hours"></button>
+          <span class="input__error-message">Ошибка</span>
+        </div>
+      </fieldset>
+      <fieldset class="fieldset fieldset_template_grid-form fieldset_style_p-none">
+        <button type="submit" class="btn btn_style_primary ">Далее</button>
+        <button type="button" class="btn btn_style_secondary btn_position_right">Отмена</button>
+      </fieldset>
+    </form>
+  </section>
+
 </main>
+
 <footer class="footer">
   <nav class="footer__menu">
     <div class="footer__menu-chapter ">
