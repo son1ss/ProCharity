@@ -1,0 +1,12 @@
+.sidebar-nav__step_type_previous {
+  background-image: url(../../../../images/check-mark.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #72D0DC;
+}
+
+@media screen and (max-width: 900px) {
+  .sidebar-nav__step_type_previous {
+    background-image: none;
+  }
+}
