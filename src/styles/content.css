@@ -133,14 +133,12 @@
 @import url(../blocks/btn/_style/btn_style_secondary.css);
 @import url(../blocks/btn/_style/btn_style_inactive.css);
 @import url(../blocks/btn/_style/btn_style_telegram.css);
+@import url(../blocks/btn/_style/btn_style_dark.css);
 
 @import url(../blocks/btn/_type/btn_type_close.css);
 @import url(../blocks/btn/_type/btn_type_refresh.css);
 @import url(../blocks/btn/_type/btn_type_delete.css);
 @import url(../blocks/btn/_type/btn_type_add.css);
-@import url(../blocks/btn/_type/btn_type_rates.css);
-@import url(../blocks/btn/_type/btn_type_cancel.css);
-@import url(../blocks/btn/_type/btn_type_adding.css);
 
 @import url(../blocks/btn/_position/btn_position_right.css);
 
