@@ -1,0 +1,13 @@
+.rates__paragraph {
+    box-sizing: border-box;
+    border-bottom: 1px solid #E3E9F0;
+    margin: 0 0 24px 0;
+    padding: 0 0 24px 0;
+}
+
+@media screen and (max-width: 796px) {
+    .rates__paragraph {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

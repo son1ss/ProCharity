@@ -1,0 +1,16 @@
+.public-result {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 24px 0 0 0;
+    padding: 0px;
+    border: 1px #E3E9F0 solid;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 900px) {
+    .public-result {
+        max-width: 100%;
+    }
+}
