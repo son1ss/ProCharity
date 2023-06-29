@@ -46,6 +46,62 @@
   </div>
 </header>
 <main class="main main_template_lk">
+  
+  <nav class="breadcrumbs">
+    <ul class="breadcrumbs__list">
+      <li class="breadcrumbs__item">
+        <a href="#" class="breadcrumbs__link">Личный кабинет</a>
+      </li>
+      <li class="breadcrumbs__item">
+        <a href="#" class="breadcrumbs__link">Ваши задания</a>
+      </li>
+      <li class="breadcrumbs__item">
+        <a href="#" class="breadcrumbs__link">Перевод анкет на немецкий</a>
+      </li>
+      <li class="breadcrumbs__item">
+        Оценка работы волонтера
+      </li>
+    </ul>
+  </nav>
+
+  <section class="sidebar-nav">
+    <ul class="sidebar-nav__list">
+      <li class="sidebar-nav__item sidebar-nav__item_type_current">
+          <div class="sidebar-nav__step sidebar-nav__step_style_lk sidebar-nav__step_type_current">
+            <span class="sidebar-nav__step-text">1</span>
+          </div>
+          <span class="sidebar-nav__item-text">Оценка</span>
+      </li>
+      <li class="sidebar-nav__item">
+        <a href="#" class="sidebar-nav__link">
+          <div class="sidebar-nav__step sidebar-nav__step_type_next">
+            <span class="sidebar-nav__step-text">2</span>
+          </div>
+          <span class="sidebar-nav__item-text">Отзывы</span>
+        </a>
+      </li>
+    </ul>
+    <div class="sidebar-nav__description">
+      <p class="sidebar-nav__description-title">Оценка работы волонтера</p>
+    </div>
+  </section>
+
+  <section class="content">
+    <h1 class=" heading heading_type_title">Оценка</h1>
+    <form name="hoursForm" id="hoursForm" action="rate-volunteer-review.html" method="get">
+      <fieldset class="fieldset">
+        <p class="paragraph">Оцените опыт работы с волонтером по 5-балльной шкале, где 1 — неудовлетворительно, а 5 — отлично. Волонтер не увидит оценку, но она повлияет на его общий рейтинг.</p>
+
+<!-- место для вставки полей оценок -->
+
+      </fieldset>
+
+      <fieldset class="fieldset fieldset_template_grid-form fieldset_style_p-none">
+        <button type="submit" class="btn btn_style_primary ">Оценить</button>
+        <button type="button" class="btn btn_style_secondary btn_position_right">Отмена</button>
+      </fieldset>
+    </form>
+  </section>
 
   <section class="content">
 
@@ -107,6 +163,7 @@
   </section>
 
 </main>
+
 <footer class="footer">
   <nav class="footer__menu">
     <div class="footer__menu-chapter ">
