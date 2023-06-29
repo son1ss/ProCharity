@@ -91,8 +91,50 @@
     <form name="hoursForm" id="hoursForm" action="rate-volunteer-review.html" method="get">
       <fieldset class="fieldset">
         <p class="paragraph">Оцените опыт работы с волонтером по 5-балльной шкале, где 1 — неудовлетворительно, а 5 — отлично. Волонтер не увидит оценку, но она повлияет на его общий рейтинг.</p>
-
-<!-- место для вставки полей оценок -->
+        <div class="criteria">
+          <fieldset class="criteria__row">
+            <h2 class="criteria__title">Профессионализм</h2>
+            <div class="criteria__group">
+              <p class="criteria__expl">Если вас что-то не устроило в выполненной работе, 
+                а волонтер отказался это исправить и не аргументировал свой отказ, 
+                поставьте более низкую оценку</p>
+            </div>
+          </fieldset>
+          <fieldset class="criteria__row">
+            <h2 class="criteria__title">Инициативность</h2>
+            <div class="criteria__group">
+              <p class="criteria__expl">Если волонтер не выходил за рамки задачи, 
+                вы можете снизить оценку</p>
+            </div>
+          </fieldset>
+          <fieldset class="criteria__row">
+            <h2 class="criteria__title">Оперативность</h2>
+            <div class="criteria__group">
+              <p class="criteria__expl">Если волонтер не уложился в сроки или долго не 
+                отвечал на сообщения, снизьте оценку</p>
+            </div>
+          </fieldset>
+          <fieldset class="criteria__row">
+            <h2 class="criteria__title">Вежливость</h2>
+            <div class="criteria__group">
+              <p class="criteria__expl">Насколько волонтер был вежлив и приятен в общении?</p>
+            </div>
+          </fieldset>
+        </div>
+      </div>    
+  
+      <div class="add-to-list">
+        <p class="paragraph add-to-list__paragraph">Если вам понравилось работать с волонтером, вы можете добавить 
+          его в список «Проверенные волонтеры». Этим волонтерам будут приходить оповещения о 
+          ваших новых заданиях по их специализации — так будет больше шансов поработать с ними снова.</p>
+        <button type="submit" class="btn btn_style_dark">добавить</button>
+      </div>
+  
+      <div class="public-result">
+        <img class="public-result__icon-warning" src="<%=require('./images/icon-warning.svg')%>" alt="восклицательный знак">
+        <p class="paragraph public-result__paragraph">Вы можете попросить волонтера не публиковать результат работы, если считаете, 
+          что он содержит конфиденциальные данные</p>
+      </div>
 
       </fieldset>
 
@@ -103,103 +145,9 @@
     </form>
   </section>
 
-  <section class="content">
+ 
 
-    <h1 class="heading heading_type_rates">Оценка</h1>
-    <div class="rates">
-      <p class="paragraph rates__paragraph">Оцените опыт работы с волонтером по 5-балльной шкале, 
-        где 1 — неудовлетворительно, а 5 — отлично. Волонтер не увидит оценку, 
-        но она повлияет на его общий рейтинг.</p>
-      <div class="criteria">
-        <fieldset class="criteria__row">
-          <h2 class="criteria__title">Профессионализм</h2>
-          <div class="criteria__group">
-            <p class="criteria__expl">Если вас что-то не устроило в выполненной работе, 
-              а волонтер отказался это исправить и не аргументировал свой отказ, 
-              поставьте более низкую оценку</p>
-          </div>
-        </fieldset>
-        <fieldset class="criteria__row">
-          <h2 class="criteria__title">Инициативность</h2>
-          <div class="criteria__group">
-            <p class="criteria__expl">Если волонтер не выходил за рамки задачи, 
-              вы можете снизить оценку</p>
-          </div>
-        </fieldset>
-        <fieldset class="criteria__row">
-          <h2 class="criteria__title">Оперативность</h2>
-          <div class="criteria__group">
-            <p class="criteria__expl">Если волонтер не уложился в сроки или долго не 
-              отвечал на сообщения, снизьте оценку</p>
-          </div>
-        </fieldset>
-        <fieldset class="criteria__row">
-          <h2 class="criteria__title">Вежливость</h2>
-          <div class="criteria__group">
-            <p class="criteria__expl">Насколько волонтер был вежлив и приятен в общении?</p>
-          </div>
-        </fieldset>
-      </div>
-    </div>    
-
-    <div class="add-to-list">
-      <p class="paragraph add-to-list__paragraph">Если вам понравилось работать с волонтером, вы можете добавить 
-        его в список «Проверенные волонтеры». Этим волонтерам будут приходить оповещения о 
-        ваших новых заданиях по их специализации — так будет больше шансов поработать с ними снова.</p>
-      <button type="submit" class="btn btn_style_dark">добавить</button>
-    </div>
-
-    <div class="public-result">
-      <img class="public-result__icon-warning" src="<%=require('./images/icon-warning.svg')%>" alt="восклицательный знак">
-      <p class="paragraph public-result__paragraph">Вы можете попросить волонтера не публиковать результат работы, если считаете, 
-        что он содержит конфиденциальные данные</p>
-    </div>
-
-    <div class="btns">
-      <button type="submit" class="btn btn_style_primary">оценить</button>
-      <button type="cancel" class="btn btn_style_secondary">Отмена</button>
-    </div>
-
-  </section>
-
-  <nav class="breadcrumbs">
-    <ul class="breadcrumbs__list">
-      <li class="breadcrumbs__item">
-        <a href="#" class="breadcrumbs__link">Личный кабинет</a>
-      </li>
-      <li class="breadcrumbs__item">
-        <a href="#" class="breadcrumbs__link">Ваши задания</a>
-      </li>
-      <li class="breadcrumbs__item">
-        <a href="#" class="breadcrumbs__link">Перевод анкет на немецкий</a>
-      </li>
-      <li class="breadcrumbs__item">
-        Оценка работы волонтера
-      </li>
-    </ul>
-  </nav>
-  <section class="sidebar-nav">
-    <ul class="sidebar-nav__list">
-      <li class="sidebar-nav__item sidebar-nav__item_type_current">
-        <div class="sidebar-nav__step sidebar-nav__step_style_lk sidebar-nav__step_type_current">
-          <span class="sidebar-nav__step-text">1</span>
-        </div>
-        <span class="sidebar-nav__item-text">Оценка</span>
-      </li>
-      <li class="sidebar-nav__item">
-        <a href="#" class="sidebar-nav__link">
-          <div class="sidebar-nav__step sidebar-nav__step_type_next">
-            <span class="sidebar-nav__step-text">2</span>
-          </div>
-          <span class="sidebar-nav__item-text">Отзывы</span>
-        </a>
-      </li>
-    </ul>
-    <div class="sidebar-nav__description">
-      <p class="sidebar-nav__description-title">Оценка работы волонтера</p>
-      <p class="sidebar-nav__description-steps">Шаг 1 из 2</p>
-    </div>
-  </section>
+  
 
 </main>
 
