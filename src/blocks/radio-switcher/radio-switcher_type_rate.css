@@ -5,12 +5,13 @@
   grid-template-rows: 1fr;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 352px;
 }
 
 @media screen and (max-width: 900px) {
   .radio-switcher_type_rate {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    padding-left: 0;
   }
 }
