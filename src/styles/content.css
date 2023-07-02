@@ -197,10 +197,12 @@
 /* Отображение форм */
 
 @import url(../blocks/radio-switcher/radio-switcher.css);
+@import url(../blocks/radio-switcher/radio-switcher_type_rate.css);
 
 @import url(../blocks/radio-switcher/__input/radio-switcher__input.css);
 
 @import url(../blocks/radio-switcher/__label/radio-switcher__label.css);
+@import url(../blocks/radio-switcher/__label/radio-switcher__label_type_rate.css);
 
 
 
