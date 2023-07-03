@@ -9,7 +9,7 @@
     flex-wrap: nowrap;
     font-size: 14px;
     font-weight: 400;
-    justify-content: center;
+    justify-content: space-between;
     line-height: 16px;
   }
 }
