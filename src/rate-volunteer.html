@@ -46,7 +46,6 @@
   </div>
 </header>
 <main class="main main_template_lk">
-  
   <nav class="breadcrumbs">
     <ul class="breadcrumbs__list">
       <li class="breadcrumbs__item">
@@ -63,7 +62,6 @@
       </li>
     </ul>
   </nav>
-
   <section class="sidebar-nav">
     <ul class="sidebar-nav__list">
       <li class="sidebar-nav__item sidebar-nav__item_type_current">
@@ -86,67 +84,117 @@
       <p class="sidebar-nav__description-steps">Шаг 1 из 2</p>
     </div>
   </section>
-
   <section class="content">
-    <h1 class=" heading heading_type_title">Оценка</h1>
-    <form name="hoursForm" id="hoursForm" action="rate-volunteer-review.html" method="get">
-      <fieldset class="fieldset">
-        <p class="paragraph">Оцените опыт работы с волонтером по 5-балльной шкале, где 1 — неудовлетворительно, а 5 — отлично. Волонтер не увидит оценку, но она повлияет на его общий рейтинг.</p>
-        <div class="criteria">
-          <fieldset class="criteria__row">
-            <h2 class="criteria__title">Профессионализм</h2>
-            <div class="criteria__group">
-              <p class="criteria__expl">Если вас что-то не устроило в выполненной работе, 
-                а волонтер отказался это исправить и не аргументировал свой отказ, 
-                поставьте более низкую оценку</p>
-            </div>
-          </fieldset>
-          <fieldset class="criteria__row">
-            <h2 class="criteria__title">Инициативность</h2>
-            <div class="criteria__group">
-              <p class="criteria__expl">Если волонтер не выходил за рамки задачи, 
-                вы можете снизить оценку</p>
-            </div>
-          </fieldset>
-          <fieldset class="criteria__row">
-            <h2 class="criteria__title">Оперативность</h2>
-            <div class="criteria__group">
-              <p class="criteria__expl">Если волонтер не уложился в сроки или долго не 
-                отвечал на сообщения, снизьте оценку</p>
-            </div>
-          </fieldset>
-          <fieldset class="criteria__row">
-            <h2 class="criteria__title">Вежливость</h2>
-            <div class="criteria__group">
-              <p class="criteria__expl">Насколько волонтер был вежлив и приятен в общении?</p>
-            </div>
-          </fieldset>
-        </div>
-      </div>    
-  
-      <div class="add-to-list">
-        <p class="paragraph add-to-list__paragraph">Если вам понравилось работать с волонтером, вы можете добавить 
-          его в список «Проверенные волонтеры». Этим волонтерам будут приходить оповещения о 
-          ваших новых заданиях по их специализации — так будет больше шансов поработать с ними снова.</p>
-        <button type="submit" class="btn btn_style_dark">добавить</button>
+    <h1 class="heading heading_type_title">Оценка</h1>
+    <div class="rates">
+      <p class="paragraph rates__paragraph">Оцените опыт работы с волонтером по 5-балльной шкале,
+        где 1 — неудовлетворительно, а 5 — отлично. Волонтер не увидит оценку, но она повлияет на его общий рейтинг.</p>
+      <div class="criteria">
+        <fieldset class="criteria__row">
+          <h2 class="criteria__title">Профессионализм</h2>
+          <div class="criteria__group">
+            <p class="criteria__expl">Если вас что-то не устроило в выполненной работе, 
+                  а волонтер отказался это исправить и не аргументировал свой отказ, 
+                  поставьте более низкую оценку</p>
+            <fieldset class="fieldset fieldset_template_grid-one-col fieldset_type_rate">
+              <div class="radio-switcher radio-switcher_type_rate">
+                <input type="radio" class="radio-switcher__input" name="volunteerRateProfessionalism" id="volunteerRateProfessionalism-1" value="volunteerRateProfessionalism-1">
+                <label for="volunteerRateProfessionalism-1" class="radio-switcher__label radio-switcher__label_type_rate">1</label>
+                <input type="radio" class="radio-switcher__input" name="volunteerRateProfessionalism" id="volunteerRateProfessionalism-2" value="volunteerRateProfessionalism-2">
+                <label for="volunteerRateProfessionalism-2" class="radio-switcher__label radio-switcher__label_type_rate">2</label>
+                <input type="radio" class="radio-switcher__input" name="volunteerRateProfessionalism" id="volunteerRateProfessionalism-3" value="volunteerRateProfessionalism-3">
+                <label for="volunteerRateProfessionalism-3" class="radio-switcher__label radio-switcher__label_type_rate">3</label>
+                <input type="radio" class="radio-switcher__input" name="volunteerRateProfessionalism" id="volunteerRateProfessionalism-4" value="volunteerRateProfessionalism-4">
+                <label for="volunteerRateProfessionalism-4" class="radio-switcher__label radio-switcher__label_type_rate">4</label>
+                <input type="radio" class="radio-switcher__input" name="volunteerRateProfessionalism" id="volunteerRateProfessionalism-5" value="volunteerRateProfessionalism-5">
+                <label for="volunteerRateProfessionalism-5" class="radio-switcher__label radio-switcher__label_type_rate">5</label>
+              </div>
+            </fieldset>
+          </div>
+        </fieldset>
+        <fieldset class="criteria__row">
+          <h2 class="criteria__title">Инициативность</h2>
+          <div class="criteria__group">
+            <p class="criteria__expl">Если волонтер не выходил за рамки задачи, вы можете снизить оценку</p>
+            <fieldset class="fieldset fieldset_template_grid-one-col fieldset_type_rate">
+              <div class="radio-switcher radio-switcher_type_rate">
+                <input type="radio" class="radio-switcher__input" name="volunteerRateInitiative" id="volunteerRateInitiative-1" value="volunteerRateInitiative-1">
+                <label for="volunteerRateInitiative-1" class="radio-switcher__label radio-switcher__label_type_rate">1</label>
+                <input type="radio" class="radio-switcher__input" name="volunteerRateInitiative" id="volunteerRateInitiative-2" value="volunteerRateInitiative-2">
+                <label for="volunteerRateInitiative-2" class="radio-switcher__label radio-switcher__label_type_rate">2</label>
+                <input type="radio" class="radio-switcher__input" name="volunteerRateInitiative" id="volunteerRateInitiative-3" value="volunteerRateInitiative-3">
+                <label for="volunteerRateInitiative-3" class="radio-switcher__label radio-switcher__label_type_rate">3</label>
+                <input type="radio" class="radio-switcher__input" name="volunteerRateInitiative" id="volunteerRateInitiative-4" value="volunteerRateInitiative-4">
+                <label for="volunteerRateInitiative-4" class="radio-switcher__label radio-switcher__label_type_rate">4</label>
+                <input type="radio" class="radio-switcher__input" name="volunteerRateInitiative" id="volunteerRateInitiative-5" value="volunteerRateInitiative-5">
+                <label for="volunteerRateInitiative-5" class="radio-switcher__label radio-switcher__label_type_rate">5</label>
+              </div>
+            </fieldset>
+          </div>
+        </fieldset>
+        <fieldset class="criteria__row">
+          <h2 class="criteria__title">Оперативность</h2>
+          <div class="criteria__group">
+            <p class="criteria__expl">Если волонтер не уложился в сроки или долго не отвечал на сообщения, снизьте оценку</p>
+            <fieldset class="fieldset fieldset_template_grid-one-col fieldset_type_rate">
+              <div class="radio-switcher radio-switcher_type_rate">
+                <input type="radio" class="radio-switcher__input" name="volunteerRateEfficiency" id="volunteerRateEfficiency-1" value="volunteerRateEfficiency-1">
+                <label for="volunteerRateEfficiency-1" class="radio-switcher__label radio-switcher__label_type_rate">1</label>
+                <input type="radio" class="radio-switcher__input" name="volunteerRateEfficiency" id="volunteerRateEfficiency-2" value="volunteerRateEfficiency-2">
+                <label for="volunteerRateEfficiency-2" class="radio-switcher__label radio-switcher__label_type_rate">2</label>
+                <input type="radio" class="radio-switcher__input" name="volunteerRateEfficiency" id="volunteerRateEfficiency-3" value="volunteerRateEfficiency-3">
+                <label for="volunteerRateEfficiency-3" class="radio-switcher__label radio-switcher__label_type_rate">3</label>
+                <input type="radio" class="radio-switcher__input" name="volunteerRateEfficiency" id="volunteerRateEfficiency-4" value="volunteerRateEfficiency-4">
+                <label for="volunteerRateEfficiency-4" class="radio-switcher__label radio-switcher__label_type_rate">4</label>
+                <input type="radio" class="radio-switcher__input" name="volunteerRateEfficiency" id="volunteerRateEfficiency-5" value="volunteerRateEfficiency-5">
+                <label for="volunteerRateEfficiency-5" class="radio-switcher__label radio-switcher__label_type_rate">5</label>
+              </div>
+            </fieldset>
+          </div>
+        </fieldset>
+        <fieldset class="criteria__row">
+          <h2 class="criteria__title">Вежливость</h2>
+          <div class="criteria__group">
+            <p class="criteria__expl">Насколько волонтер был вежлив и приятен в общении?</p>
+            <fieldset class="fieldset fieldset_template_grid-one-col fieldset_type_rate">
+              <div class="radio-switcher radio-switcher_type_rate">
+                <input type="radio" class="radio-switcher__input" name="volunteerRatePoliteness" id="volunteerRatePoliteness-1" value="volunteerRatePoliteness-1">
+                <label for="volunteerRatePoliteness-1" class="radio-switcher__label radio-switcher__label_type_rate">1</label>
+                <input type="radio" class="radio-switcher__input" name="volunteerRatePoliteness" id="volunteerRatePoliteness-2" value="volunteerRatePoliteness-2">
+                <label for="volunteerRatePoliteness-2" class="radio-switcher__label radio-switcher__label_type_rate">2</label>
+                <input type="radio" class="radio-switcher__input" name="volunteerRatePoliteness" id="volunteerRatePoliteness-3" value="volunteerRatePoliteness-3">
+                <label for="volunteerRatePoliteness-3" class="radio-switcher__label radio-switcher__label_type_rate">3</label>
+                <input type="radio" class="radio-switcher__input" name="volunteerRatePoliteness" id="volunteerRatePoliteness-4" value="volunteerRatePoliteness-4">
+                <label for="volunteerRatePoliteness-4" class="radio-switcher__label radio-switcher__label_type_rate">4</label>
+                <input type="radio" class="radio-switcher__input" name="volunteerRatePoliteness" id="volunteerRatePoliteness-5" value="volunteerRatePoliteness-5">
+                <label for="volunteerRatePoliteness-5" class="radio-switcher__label radio-switcher__label_type_rate">5</label>
+              </div>
+            </fieldset>
+          </div>
+        </fieldset>
       </div>
-  
-      <div class="public-result">
-        <img class="public-result__icon-warning" src="<%=require('./images/icon-warning.svg')%>" alt="восклицательный знак">
-        <p class="paragraph public-result__paragraph">Вы можете попросить волонтера не публиковать результат работы, если считаете, 
-          что он содержит конфиденциальные данные</p>
-      </div>
-
-      </fieldset>
-
-      <fieldset class="fieldset fieldset_template_grid-form fieldset_style_p-none">
-        <button type="submit" class="btn btn_style_primary ">Оценить</button>
-        <button type="button" class="btn btn_style_secondary btn_position_right">Отмена</button>
-      </fieldset>
-    </form>
+    </div>
+    <div class="add-to-list">
+      <p class="paragraph add-to-list__paragraph">Если вам понравилось работать с волонтером, вы можете добавить 
+      его в список «Проверенные волонтеры». Этим волонтерам будут приходить оповещения о 
+      ваших новых заданиях по их специализации — так будет больше шансов поработать с ними снова.</p>
+      <button type="submit" class="btn btn_style_dark">добавить</button>
+    </div>
+    <div class="public-result">
+      <img class="public-result__icon-warning" src="<%=require('./images/icon-warning.svg')%>" alt="восклицательный знак">
+      <p class="paragraph public-result__paragraph">Вы можете попросить волонтера не публиковать результат работы, если считаете, 
+        что он содержит конфиденциальные данные</p>
+    </div>
+    <fieldset class="fieldset fieldset_template_grid-form fieldset_style_p-none">
+      <button type="submit" class="btn btn_style_primary ">Оценить</button>
+      <button type="button" class="btn btn_style_secondary btn_position_right">Отмена</button>
+    </fieldset>
+    
   </section>
 
  
+
+  
 
   
 
