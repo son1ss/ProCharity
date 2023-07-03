@@ -1,17 +1,8 @@
 .radio-switcher_type_rate {
   align-items: center;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(5, minmax(63px, 71px));
   grid-template-rows: 1fr;
   margin: 0;
   padding: 0;
-  width: 352px;
-}
-
-@media screen and (max-width: 900px) {
-  .radio-switcher_type_rate {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    padding-left: 0;
-  }
 }
