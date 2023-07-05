@@ -1,5 +1,5 @@
 .textarea__error-message {
-  bottom: -24px;
+  bottom: 0;
   color: #D20202;
   display: none;
   font-size: 14px;
