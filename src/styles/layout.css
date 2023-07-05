@@ -34,12 +34,14 @@
 
 
 @import url(../blocks/account-btn/account-btn.css);
+@import url(../blocks/account-btn/_type/account-btn_type_task.css);
 
 @import url(../blocks/account-btn/__text/account-btn__text.css);
 
 @import url(../blocks/account-btn/__content/account-btn__content.css);
 @import url(../blocks/account-btn/__content/_type/account-btn__content_type_default.css);
 @import url(../blocks/account-btn/__content/_type/account-btn__content_type_lk.css);
+@import url(../blocks/account-btn/__content/_type/account-btn__content_type_task.css);
 
 @import url(../blocks/account-btn/__avatar/account-btn__avatar.css);
 @import url(../blocks/account-btn/__avatar/_type/account-btn__avatar_type_default.css);

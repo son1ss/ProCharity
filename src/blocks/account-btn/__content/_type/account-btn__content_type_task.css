@@ -1,0 +1,14 @@
+.account-btn__content_type_task {
+    background: #E6560A;
+    border-radius: 24px;
+    min-height: 48px;
+}
+
+@media screen and (max-width: 900px) {
+    .account-btn__content_type_task {
+        background: url(../../../../images/icon-task.svg) no-repeat center center;
+        height: 32px;
+        min-height: 32px;
+        width: 32px;
+    }
+}
