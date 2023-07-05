@@ -3,3 +3,9 @@
     width: 232px;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 900px) {
+  .account-btn_type_task {
+    width: 72px;
+  }
+}

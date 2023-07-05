@@ -15,6 +15,5 @@
   .account-btn {
     height: 32px;
     justify-self: right;
-    max-width: min-content;
   }
 }
