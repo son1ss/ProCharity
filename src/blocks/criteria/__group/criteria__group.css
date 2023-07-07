@@ -1,0 +1,13 @@
+.criteria__group {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 32px;
+}
+
+@media screen and (max-width: 900px) {
+    .criteria__group {
+        flex-direction: column;
+        gap: 12px;
+    }
+}

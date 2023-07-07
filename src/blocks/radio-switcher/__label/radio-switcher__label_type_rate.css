@@ -1,0 +1,34 @@
+.radio-switcher__label_type_rate {
+  border: solid 1px #048AA7;
+  margin: 0 -1px 0 0;
+}
+
+.radio-switcher__input:checked + .radio-switcher__label_type_rate {
+  background-color: #72D0DC;
+  border-color: #72D0DC;
+  color: #fff;
+}
+
+.radio-switcher__input:checked + .radio-switcher__label_type_rate:hover {
+  background-color: #72D0DC;
+  border-color: #72D0DC;
+  color: #fff;
+  opacity: 1;
+}
+
+.radio-switcher__input:checked + .radio-switcher__label_type_rate + .radio-switcher__input + .radio-switcher__label_type_rate {
+  border-left-color: #72d0dc;
+}
+
+@media screen and (max-width: 900px) {
+  .radio-switcher__label_type_rate:first-of-type {
+    border-radius: 6px 0 0 6px;
+    margin: 0 -1px 0 0;
+  }
+
+  .radio-switcher__label_type_rate:last-of-type {
+    border: solid 1px #048AA7;
+    border-radius: 0 6px 6px 0;
+    margin: 0 -1px 0 0;
+  }
+}

@@ -1,0 +1,36 @@
+.btn_style_dark {
+    background-color: #3A464C;
+    box-sizing: border-box;
+    color: #fff;
+    max-width: max-content;
+    padding: 18px 30px;
+    width: 100%;
+    height: 56px;
+}
+
+.btn_style_dark:hover {
+    background: #E65609;
+    opacity: 1;
+  }
+  
+  .btn_style_dark:focus {
+    background: #3A464C;
+    border: 2px solid #E65609;
+  }
+  
+  .btn_style_dark:active {
+    background: #CC4D00;
+  }
+  
+  .btn_style_dark:disabled {
+    opacity: .6;
+  }
+
+@media screen and (max-width: 900px) {
+    .btn_style_dark {
+        margin: 0 auto;
+        max-width: 100%;
+        order: 1;
+        width: 100%;
+    }
+}

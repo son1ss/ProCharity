@@ -1,0 +1,15 @@
+.heading_type_rates {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    padding-bottom: 24px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .heading_type_rates {
+      font-size: 24px;
+      line-height: 32px;
+      padding-bottom: 20px;
+    }
+  }
+  

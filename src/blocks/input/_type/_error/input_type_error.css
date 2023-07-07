@@ -1,0 +1,5 @@
+.input_type_error > .input__field {
+  border: 1px solid #D20202;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}

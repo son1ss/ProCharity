@@ -1,0 +1,15 @@
+.criteria__row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .criteria__row {
+        padding: 0;
+    }
+}

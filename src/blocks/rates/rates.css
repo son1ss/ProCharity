@@ -1,0 +1,16 @@
+.rates {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 900px) {
+    .rates {
+        padding-top: 6px;
+    }
+}
